@@ -4,13 +4,14 @@ import IngresarDatos from "../IngresarDatos";
 import Equipos from "../equipos/Equipos";
 import BtnCrear from "../button/BtnCrear";
 
-function Formulario() {
+function Formulario({setColaborador}) {
   const [nombre, setNombre] = useState("");
   const [puesto, setPuesto] = useState("");
   const [foto, setFoto] = useState("");
   const [equipo, setEquipo] = useState("");
 
-  const obtenerDatos = (e) => {
+/*   const{setColaborador}=datos */
+  const obtenerD = (e) => {
     e.preventDefault();
     let datos = {
       nombre,
@@ -18,14 +19,14 @@ function Formulario() {
       foto,
       equipo
     };
-
-    console.log(datos);
+    setColaborador(datos);
+  
   };
 
   return (
     <section>
       <div>
-        <form className="forfumalario-conteiner" onSubmit={obtenerDatos}>
+        <form className="forfumalario-conteiner" onSubmit={obtenerD}>
           <IngresarDatos
             id="nombre"
             title="Nombre"
