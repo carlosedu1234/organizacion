@@ -1,0 +1,11 @@
+.conteiner-select{
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    padding: 2em;
+    border: none;
+    box-shadow: 0 4px 1px rgba(0, 0, 0, 0.1);
+    margin: 0.5em 0 1em;
+    outline-color: #6278f7;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0, 0.8);
+}

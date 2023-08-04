@@ -1,0 +1,23 @@
+.btn__formato {
+  background: #6278f7;
+  width: 167px;
+  color: #ffffff;
+  padding: 1.3em 0;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2em;
+  box-sizing: border-box;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.btn__formato:hover {
+    transition: 0.5s;
+    color: #95FFD4;
+}
+
+.btn__formato:active{
+    transition: transform 0.2s;
+    transform: translateY(2px);
+    box-shadow: none;
+  }

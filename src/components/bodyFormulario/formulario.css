@@ -1,0 +1,34 @@
+.forfumalario-conteiner {
+  width: 50%;
+  margin: 4em auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f6f6;
+  padding: 1.5em 7em 1.5em 5em;
+  border-radius: 15px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.formulario__titulo {
+  text-align: center;
+}
+.forfumalario-conteiner input {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  padding:2em 1.5em;
+  border: none;
+  box-shadow: 0 4px 1px rgba(0, 0, 0, 0.1);
+  margin: 0.5em 0 1em;
+  outline-color: #6278f7;
+  box-sizing: border-box;
+}
+
+.forfumalario-conteiner input::placeholder {
+  color: rgb(0, 0, 0, 0.5);
+}
+
+.forfumalario-conteiner label {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
