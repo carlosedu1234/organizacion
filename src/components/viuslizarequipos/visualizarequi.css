@@ -1,23 +1,21 @@
-.conteiner-visualizar{
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-   flex-wrap:wrap;
-    width: 100%;
-    gap: 1em;
-    text-align: center;
-    background-color: antiquewhite;
-    padding: 1em 3em;
-    box-sizing: border-box;
+.conteiner-visualizar {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 1em;
+  text-align: center;
+  padding: 1em 3em;
+  box-sizing: border-box;
 }
 
-.conteiner{
-    text-align: center;
+.conteiner {
+  text-align: center;
 }
-.conteiner h3{
-
-    padding-bottom: 0.5em;
-    border-bottom: 4px solid #000000;
-    display: inline-block;
-    font-size: 32px;
+.conteiner h3 {
+  padding-bottom: 0.5em;
+  border-bottom: 4px solid #000000;
+  display: inline-block;
+  font-size: 32px;
 }

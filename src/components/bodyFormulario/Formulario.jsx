@@ -3,7 +3,7 @@ import "./formulario.css";
 import IngresarDatos from "../IngresarDatos";
 import Equipos from "../equipos/Equipos";
 import BtnCrear from "../button/BtnCrear";
-
+import uuid4 from "uuid4";
 function Formulario({setColaborador}) {
   const [nombre, setNombre] = useState("");
   const [puesto, setPuesto] = useState("");
@@ -17,7 +17,8 @@ function Formulario({setColaborador}) {
       nombre,
       puesto,
       foto,
-      equipo
+      equipo,
+      id:uuid4()
     };
     setColaborador(datos);
   
